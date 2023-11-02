@@ -9,7 +9,8 @@
 ```console
 git clone https://github.com/CliffBooth/Test_task.git
 ./mvnw package
-java -jar test_task lng.txt
+cd Test_task
+java -jar test_task.jar lng.txt
 ```
 
 Результат выводится в файл result.txt
